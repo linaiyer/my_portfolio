@@ -24,7 +24,6 @@ const skills = [
     { name: "Android Studios", level: 85, category: "tools" },
     { name: "Firebase", level: 90, category: "tools" },
     { name: "Fusion360", level: 75, category: "tools" },
-    { name: "Docker", level: 70, category: "tools" },
     { name: "Docker", level: 60, category: "tools" },
     { name: "Wireshark", level: 65, category: "tools" },
     { name: "GDB", level: 60, category: "tools" },
