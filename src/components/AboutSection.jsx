@@ -10,7 +10,7 @@ export const AboutSection = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">CS & Political Science @ University of Michigan - Ann Arbor</h3>
+                        <h3 className="text-2xl font-semibold">CS & Political Science @ University of Michigan</h3>
 
                         <p className="text-muted-foreground">
                             I am focused on using technology to create meaningful social impact. In 2018, I co-founded Code for Nonprofit to help mission-driven organizations access better digital tools. One of our key initiatives, HFNMeditate, supports ongoing research into mental wellness and chronic illness, with early results contributing to an NIH grant proposal.
