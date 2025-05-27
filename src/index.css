@@ -169,6 +169,24 @@
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3)
 }
 
+@keyframes raindrop {
+  0% {
+    transform: translateY(0);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.animate-raindrop {
+  animation-name: raindrop;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 #root {
   max-width: 100%;
   margin: 0 auto;

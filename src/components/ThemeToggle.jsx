@@ -1,45 +1,39 @@
-import { Moon, Sun } from "lucide-react";
-import { useState, useEffect } from "react";
-import { cn } from "@/lib/utils";
+import React, { useState, useEffect } from "react";
 
 export const ThemeToggle = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
-    
+
     useEffect(() => {
         const storedTheme = localStorage.getItem("theme");
         if (storedTheme === "dark") {
             setIsDarkMode(true);
             document.documentElement.classList.add("dark");
-        }
-        else {
-            localStorage.setItem("theme", "light");
+        } else {
             setIsDarkMode(false);
+            document.documentElement.classList.remove("dark");
         }
     }, []);
 
     const toggleTheme = () => {
-        if (isDarkMode) {
-            document.documentElement.classList.remove("dark");
-            localStorage.setItem("theme", "light");
-            setIsDarkMode(false);
-        }
-        else {
-            document.documentElement.classList.add("dark");
-            localStorage.setItem("theme", "dark");
-            setIsDarkMode(true);
-        }
+        const newTheme = isDarkMode ? "light" : "dark";
+        setIsDarkMode(!isDarkMode);
+        localStorage.setItem("theme", newTheme);
+        document.documentElement.classList.toggle("dark");
     };
 
     return (
-        <button onClick={toggleTheme} className={cn("fixed max-sm:hidden top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
-            "focus:outlin-hidden"
-        )}> 
-            {" "}
-            {isDarkMode ? (
-                <Sun className="h-6 w-6 text-yellow-300" /> 
-            ) : (
-                <Moon className="h-6 w-6 text-blue-900" />
-            )}
-        </button>
+        <div className="fixed top-5 right-5 z-50 flex flex-col items-center space-y-1 text-sm text-muted-foreground">
+            <label className="relative inline-flex items-center cursor-pointer">
+                <input
+                    type="checkbox"
+                    className="sr-only peer"
+                    checked={isDarkMode}
+                    onChange={toggleTheme}
+                />
+                <div className="w-10 h-5 bg-gray-300 rounded-full peer-checked:bg-primary dark:bg-gray-600 transition-colors duration-300"></div>
+                <div className="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full transition-transform duration-300 peer-checked:translate-x-5 shadow" />
+            </label>
+            <span>{isDarkMode ? "Dark" : "Light"}</span>
+        </div>
     );
 };

@@ -7,15 +7,19 @@ import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
+import { ForestRainBackground } from "../components/ForestRainBackground";
 
 export const Home = () => {
-    return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    return <div className="relative min-h-screen bg-background dark:bg-transparent text-foreground overflow-x-hidden">
 
         {/* Theme Toggle */}
         <ThemeToggle />
 
         {/* Background Effects */}
-        <StarBackground />
+        {/* <StarBackground /> */}
+        <div className="dark:block hidden">
+            <ForestRainBackground />
+        </div>
 
         {/* Navbar */}
         <Navbar />
