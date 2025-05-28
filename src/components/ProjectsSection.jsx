@@ -17,7 +17,7 @@ const projects = [
         image: "/projects/CVSApp.png",
         tags: ["Flutter", "Firebase", "Figma"],
         demoUrl: "https://apps.apple.com/us/app/wellnessmeditate/id1608177927",
-        githubURL: "#"
+        githubURL: "https://github.com/linaiyer/cvs_app"
     }
 ]
 
