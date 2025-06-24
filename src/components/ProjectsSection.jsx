@@ -19,6 +19,15 @@ const projects = [
         demoUrl: "https://apps.apple.com/us/app/wellnessmeditate/id1608177927",
         githubURL: "https://github.com/linaiyer/cvs_app"
     }
+    {
+        id: 3,
+        title: "HFN For Work",
+        description: "Developed and designed a mobile ios and android app using Flutter to streamline participant access to meditation training in a workplace setting.",
+        image: "/projects/HFNForWork.png",
+        tags: ["Flutter", "Firebase", "Figma"],
+        demoUrl: "#",
+        githubURL: "https://github.com/linaiyer/hfn_work"
+    }
 ]
 
 export const ProjectsSection = () => {
