@@ -18,7 +18,7 @@ const projects = [
         tags: ["Flutter", "Firebase", "Figma"],
         demoUrl: "https://apps.apple.com/us/app/wellnessmeditate/id1608177927",
         githubURL: "https://github.com/linaiyer/cvs_app"
-    }
+    },
     {
         id: 3,
         title: "HFN For Work",
