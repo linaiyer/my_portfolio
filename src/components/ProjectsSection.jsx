@@ -3,15 +3,6 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "HFN App",
-        description: "Developed a mobile research app using Flutter to streamline participant access to meditation training, including video content delivery and trainer matching features. Integrated Firebase Authentication and Realtime Database for secure login and dynamic data handling.",
-        image: "/projects/HFNApp.png",
-        tags: ["Flutter", "Firebase", "Figma"],
-        demoUrl: "https://apps.apple.com/us/app/hfn-app/id6648753906",
-        githubURL: "#"
-    },
-    {
-        id: 2,
         title: "HFNMeditate",
         description: "Engineered a 4-week in-app meditation program using Flutter, integrating video content, user authentication, and real-time data collection via Firebase Authentication and Realtime Database to support an IRB-approved research study.",
         image: "/projects/CVSApp.png",
@@ -20,13 +11,31 @@ const projects = [
         githubURL: "https://github.com/linaiyer/cvs_app"
     },
     {
-        id: 3,
+        id: 2,
         title: "HFN For Work",
         description: "Developed and designed a mobile ios and android app using Flutter to streamline participant access to meditation training in a workplace setting.",
         image: "/projects/HFNForWork.png",
         tags: ["Flutter", "Firebase", "Figma"],
         demoUrl: "#",
         githubURL: "https://github.com/linaiyer/hfn_work"
+    },
+    {
+        id: 3,
+        title: "YogaLink",
+        description: "Engineered a full-stack yoga studio booking platform using Next.js and FastAPI, featuring real-time search, interactive maps, and advanced filtering. Integrated Firebase Authentication and Firestore for secure user login, persistent profile management, and seamless booking experiences, with live yoga studio data sourced from the Yelp Fusion API",
+        image: "/projects/YogaLink.png",
+        tags: ["Next.js", "Node.js", "React", "FastAPI", "Firebase", "Figma"],
+        demoUrl: "#",
+        githubURL: "https://github.com/linaiyer/yoga-booking"
+    },
+    {
+        id: 4,
+        title: "HFN App",
+        description: "Developed a mobile research app using Flutter to streamline participant access to meditation training, including video content delivery and trainer matching features. Integrated Firebase Authentication and Realtime Database for secure login and dynamic data handling.",
+        image: "/projects/HFNApp.png",
+        tags: ["Flutter", "Firebase", "Figma"],
+        demoUrl: "https://apps.apple.com/us/app/hfn-app/id6648753906",
+        githubURL: "#"
     }
 ]
 
