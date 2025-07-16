@@ -30,6 +30,15 @@ const projects = [
     },
     {
         id: 4,
+        title: "Behind the Bill",
+        description: "Developed an AI-powered React Native mobile app that makes politics accessible by providing personalized news feeds, intelligent policy explanations, and conversational AI politicians to help users understand how legislation impacts their daily lives",
+        image: "/projects/BehindtheBill.png",
+        tags: ["React Native", "Expo", "TypeScript", "AI/M"],
+        demoUrl: "#",
+        githubURL: "https://github.com/linaiyer/behind-the-bill"
+    },
+    {
+        id: 5,
         title: "HFN App",
         description: "Developed a mobile research app using Flutter to streamline participant access to meditation training, including video content delivery and trainer matching features. Integrated Firebase Authentication and Realtime Database for secure login and dynamic data handling.",
         image: "/projects/HFNApp.png",
