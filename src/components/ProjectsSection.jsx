@@ -33,12 +33,21 @@ const projects = [
         title: "Behind the Bill",
         description: "Developed an AI-powered React Native mobile app that makes politics accessible by providing personalized news feeds, intelligent policy explanations, and conversational AI politicians to help users understand how legislation impacts their daily lives",
         image: "/projects/BehindtheBill.png",
-        tags: ["React Native", "Expo", "TypeScript", "AI/M"],
+        tags: ["React Native", "Expo", "TypeScript", "AI/ML"],
         demoUrl: "#",
         githubURL: "https://github.com/linaiyer/behind-the-bill"
     },
     {
         id: 5,
+        title: "Replate",
+        description: "Replate is a social app for sharing home-cooked meals. Users connect with their friends, scroll for recipe inspiration, and compete on a leaderboard, turning cooking into community.",
+        image: "/projects/BehindtheBill.png",
+        tags: ["React Native", "Expo", "TypeScript", "Node.js"],
+        demoUrl: "https://devpost.com/software/replate-l98fbs?_gl=1*1clw3rw*_gcl_au*MTMzNDQ1NjIyMC4xNzU5MDMxMDg0*_ga*MTQ5NjI2MzQ0NC4xNzU5MDMxMDg0*_ga_0YHJK3Y10M*czE3NTkxOTAyNzIkbzUkZzEkdDE3NTkxOTAzMDYkajI2JGwwJGgw",
+        githubURL: "https://github.com/linaiyer/replate"
+    },
+    {
+        id: 6,
         title: "HFN App",
         description: "Developed a mobile research app using Flutter to streamline participant access to meditation training, including video content delivery and trainer matching features. Integrated Firebase Authentication and Realtime Database for secure login and dynamic data handling.",
         image: "/projects/HFNApp.png",
