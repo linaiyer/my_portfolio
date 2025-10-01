@@ -41,7 +41,7 @@ const projects = [
         id: 5,
         title: "Replate",
         description: "Replate is a social app for sharing home-cooked meals. Users connect with their friends, scroll for recipe inspiration, and compete on a leaderboard, turning cooking into community.",
-        image: "/projects/BehindtheBill.png",
+        image: "/projects/replate.png",
         tags: ["React Native", "Expo", "TypeScript", "Node.js"],
         demoUrl: "https://devpost.com/software/replate-l98fbs?_gl=1*1clw3rw*_gcl_au*MTMzNDQ1NjIyMC4xNzU5MDMxMDg0*_ga*MTQ5NjI2MzQ0NC4xNzU5MDMxMDg0*_ga_0YHJK3Y10M*czE3NTkxOTAyNzIkbzUkZzEkdDE3NTkxOTAzMDYkajI2JGwwJGgw",
         githubURL: "https://github.com/linaiyer/replate"
